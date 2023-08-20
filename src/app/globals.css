@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 10px;
+    background-color: rgb(250, 250, 250);
+    align-items: center;
+}
+.content-main-div{
+    margin-top: 10px;
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
+.iconn{
+    font-size: 22px;
+    color: #47c3d1;
+}
+.contentPage{
+    margin-top: 20px;
+    width:70%;
+}
